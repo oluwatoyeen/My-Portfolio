@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header nav{
+    display: grid;
+    grid-template-columns: 10% 50% 20%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(41, 35, 33);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-size: smaller;
+    margin: 0.2rem;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+span{
+    color: brown;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.button1{
+    background-color:brown;
+    border-radius: 15%;
+    width: 4rem;
+    color: white;
+    font-size: 0.4rem;
+}
+
+main{
+    background-color: rgb(41, 35, 33);
+}
+.Hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    background-color: white;
+    
+}
+
+.Hero img{
+    width: 100%;
+}
+.hero span{
+    color: brown;
+}
+
+.Hero h6{
+    color:black;
+    font-size: 1.6rem;
+}
+.Hero h1{
+    font-size: 1.8rem;
+    margin-top: 0.4rem;
+}
+.Hero h5{
+    color: black;
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+}
+
+div{
+    margin-top: 1rem;
+    color: white;
+}
+
+.cv{
+    background-color: rgb(41, 35, 33);
+    color: white;
+    border-radius: 5%;
+    font-size: 0.5rem;
+}
+.Hire{
+    background-color: rgb(41, 35, 33);
+    color: white;
+    font-size: 0.5rem;
+}
+
+main{
+    padding: 1rem;
+}
+
+.About{
+    display: grid;
+    grid-template-columns: 50% 30%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 235, 228);
+}
+
+.About img{
+    width: 100%;
+}
+
+.About button{
+    background-color: red;
+    color: white;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.About h1{
+    font-size: 2rem;
+    color: black;
+}
+
+.About p{
+    color: rgb(153, 77, 77);
+    font-size: 1.2rem;
+}
+
+.service{
+    padding: 1rem;
+    background-color: rgb(41, 35, 33) ;
+}
+
+.service h1{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.serivce-container{
+    background-color:rgb(41, 35, 33);
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-around;
+    align-items: cemter;
+}
+
+.serivce-container img{
+    width: 1.5rem;
+    padding-left: 0.5;
+}
+
+.box{
+   
+    border-radius: 1rem;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(250, 199, 182);
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.box h5{
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.box p{
+    font-size: x-small;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.box button{
+    background-color: red;
+    color: white;
+    font-size: 0.3rem;
+    width: 3rem; 
+    border-style: hidden;
+}
+
+.box2{
+    background-color:rgb(250, 199, 182);
+    border-radius: 1rem;
+    height: 90%;
+    width: 100%;
+    color: black;
+}
+.box2 p{
+    font-size: x-small;
+    margin-top: 1rem; 
+    padding-left: 0.5rem;
+}
+
+.box2 h5{
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.box2 button{
+    background-color: red;
+    color: white;
+    font-size: 0.3rem;
+    width: 3rem; 
+    border-style: hidden;
+}
+
+.box3{
+    background-color:rgb(250, 199, 182);
+    border-radius: 1rem;
+    height: 90%;
+    width: 100%;
+    color: black;
+}
+.box3 p{
+    font-size: x-small;
+    margin-top: 1rem; 
+    padding-left: 0.5rem;
+}
+
+.box3 h5{
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.box3 button{
+    background-color: red;
+    color: white;
+    font-size: 0.3rem;
+    width: 3rem; 
+    border-style: hidden;
+}
+
+.Dummy{
+    padding: 1rem;
+    background-color:rgb(59, 51, 48);
+    align-items: center;
+    margin-top: 1rem;
+    width: fullwidth;
+    
+}
+
+.Dummy h5{
+    text-align: center;
+    color: white;
+}
+.Dummy button{
+    border-radius: 30%;
+    border-style: hidden;
+    background-color: red;
+    color: white;
+    font-size: 0.5rem;
+  
+    
+}
+
+.footer{
+    padding: 1rem;
+    background-color:rgb(41, 35, 33);
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.footer p{
+    font-size: 0.8rem;
+}
+.logo img{
+    width: 3rem;
+}
+
+.link{
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 44%;
+    margin-top: 0%;  
+    background-color:rgb(41, 35, 33); 
+}
+
+
+@media (max-width: 870px){
+    .box p{
+        font-size: 0.6rem; 
+    }
+    .box2 p{
+        font-size: 0.6rem; 
+    }
+    .box3 p{
+        font-size: 0.6rem; 
+    }
+}
+
+@media (max-width:530px){
+    .box h5{
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+    }
+    .box2 h5{
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+    }
+    .box3 h5{
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+    }
+    .Hero h6{
+        color:black;
+        font-size: 1.3rem;
+    }
+    .Hero h1{
+        font-size: 2.4rem;
+        margin-top: 0.4rem;
+    }
+    .Hero h5{
+        color: black;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .About h1{
+        font-size: 1.8rem;
+        color: black;
+    }
+}
+
+@media (max-width:495px) {
+    .About h1{
+        font-size: 1.5rem;
+        color: black;
+    }
+}
+
+@media (max-width:440px) { 
+    .box h5{
+        font-size: 0.6rem;
+        padding-left: 0.5rem;
+    }
+    .box2 h5 {    
+        font-size: 0.6rem;
+        padding-left: 0.5rem;
+    } 
+    .box3 h5{
+        font-size: 0.6rem;
+        padding-left: 0.5rem;
+    }
+    .Hero h6{
+        color:black;
+        font-size: 1.2rem;
+    }
+    .Hero h1{
+        font-size: 2.3rem;
+        margin-top: 0.4rem;
+    }
+    .Hero h5{
+        color: black;
+        margin-top: 0.4rem;
+        font-size: 1.2rem;
+    }
+    .About p{
+        color: rgb(153, 77, 77);
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:376px){
+    .About h1{
+        font-size: 1.2rem;
+        color: black;
+    }
+}
